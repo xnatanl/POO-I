@@ -10,4 +10,8 @@ public class Gerente extends Funcionario {
     public void setGratificacao(double gratificacao) {
         this.gratificacao = gratificacao;
     }
+    
+    public double calcularSalarioGraficado(){
+        return super.getSalario() + gratificacao;
+    }
 }

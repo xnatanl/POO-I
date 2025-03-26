@@ -31,9 +31,23 @@ public class Principal {
         Gerente gustavo = new Gerente();
         gustavo.setNome("Gustavo");
         gustavo.setSalario(2300);
-        gustavo.setGratificacao(0);
+        gustavo.calcularBonus("Dezembro");
+        gustavo.setGratificacao(250);
+        System.out.println("\nGerente: " + gustavo.getNome() + "\nSalario para o mes dezembro: " + "\nR$" + gustavo.calcularSalarioGraficado());
         
-        
+        Gerente guto = new Gerente();
+        guto.setNome("Guto");
+        guto.setSalario(2300);
+        guto.calcularBonus("Novembro");
+        guto.setGratificacao(250);
+        System.out.println("\nGerente: " + guto.getNome() + "\nSalario para o mes dezembro: " + "\nR$" + guto.calcularSalarioGraficado());        
+     
+        Gerente gina = new Gerente();
+        gina.setNome("Gina");
+        gina.setSalario(2300);
+        gina.calcularBonus("Outubro");
+        gina.setGratificacao(450);
+        System.out.println("\nGerente: " + gina.getNome() + "\nSalario para o mes dezembro: " + "\nR$" + gina.calcularSalarioGraficado());    
         
         // Objetos programador
         
