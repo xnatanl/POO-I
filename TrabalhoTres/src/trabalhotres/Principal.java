@@ -26,6 +26,15 @@ public class Principal {
         fabio.calcularBonus("Dezembro");             
         System.out.println("\nFuncionario: " + fabio.getNome() + "\nSalario para o mes dezembro: " + "\nR$ " + fabio.getSalario());
        
+        // Objetos gerente
+        
+        Gerente gustavo = new Gerente();
+        gustavo.setNome("Gustavo");
+        gustavo.setSalario(2300);
+        gustavo.setGratificacao(0);
+        
+        
+        
         // Objetos programador
         
         Programador pedro = new Programador();
