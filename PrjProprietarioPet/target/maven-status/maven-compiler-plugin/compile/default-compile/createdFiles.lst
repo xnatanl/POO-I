@@ -1,0 +1,5 @@
+com\mycompany\prjproprietariopet\PrjProprietarioPet.class
+com\mycompany\prjproprietariopet\Objetos\Pet.class
+com\mycompany\prjproprietariopet\Objetos\Proprietario.class
+com\mycompany\prjproprietariopet\Objetos\Endereco.class
+com\mycompany\prjproprietariopet\Objetos\util\MostrarDados.class
